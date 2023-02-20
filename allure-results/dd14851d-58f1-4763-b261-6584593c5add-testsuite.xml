@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676922044187' stop='1676922065975'>
+    <name>Purchase on the kasirAja website</name>
+    <title>Purchase on the kasirAja website</title>
+    <test-cases>
+        <test-case start='1676922044215' status='passed' stop='1676922054445'>
+            <name>TC-03 As a user, I login and not purchase products</name>
+            <title>TC-03 As a user, I login and not purchase products</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Purchase on the kasirAja website'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676922044219' status='passed' stop='1676922049514'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922049514' status='passed' stop='1676922050022'>
+                    <name>When User toko input admin@mail.com and admin then user click menu Pembelian at navbar</name>
+                    <title>When User toko input admin@mail.com and admin then user click menu Pembelian at navbar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922050022' status='passed' stop='1676922054444'>
+                    <name>Then User does not select a product and clicks the save button it will see item produk kosong</name>
+                    <title>Then User does not select a product and clicks the save button it will see item produk kosong</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676922054446' status='passed' stop='1676922065974'>
+            <name>TC-04 As a user, I login and make product purchases</name>
+            <title>TC-04 As a user, I login and make product purchases</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Purchase on the kasirAja website'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676922054446' status='passed' stop='1676922059644'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922059644' status='passed' stop='1676922060080'>
+                    <name>When User toko input tokorisdho@gmail.com and 123asd@ then user click menu Pembelian at navbar</name>
+                    <title>When User toko input tokorisdho@gmail.com and 123asd@ then user click menu Pembelian at navbar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922060080' status='passed' stop='1676922063091'>
+                    <name>And User search produk Roti</name>
+                    <title>And User search produk Roti</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922063091' status='passed' stop='1676922064685'>
+                    <name>And Users see the product they are looking for BR156916</name>
+                    <title>And Users see the product they are looking for BR156916</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922064686' status='passed' stop='1676922065974'>
+                    <name>Then User selects the product to be purchased and see transaksi ditambahkan</name>
+                    <title>Then User selects the product to be purchased and see transaksi ditambahkan</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

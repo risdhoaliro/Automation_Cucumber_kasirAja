@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 21 02:43:30 WIB 2023","Tue Feb 21 02:43:37 WIB 2023","6666","","Login to website Kasir Aja Website","","Login to website Kasir Aja Website","TC-01 As a user, I can't log in to KasirAja","TC-01 As a user, I can't log in to KasirAja",""
+"passed","Tue Feb 21 02:43:37 WIB 2023","Tue Feb 21 02:43:45 WIB 2023","8399","","Login to website Kasir Aja Website","","Login to website Kasir Aja Website","TC-02 As a user, I can log in to KasirAja","TC-02 As a user, I can log in to KasirAja",""
+"passed","Tue Feb 21 02:43:39 WIB 2023","Tue Feb 21 02:43:50 WIB 2023","10073","","Purchase on the kasirAja website","","Purchase on the kasirAja website","TC-04 As a user, I login and make product purchases","TC-04 As a user, I login and make product purchases",""
+"passed","Tue Feb 21 02:43:30 WIB 2023","Tue Feb 21 02:43:39 WIB 2023","9524","","Purchase on the kasirAja website","","Purchase on the kasirAja website","TC-03 As a user, I login and not purchase products","TC-03 As a user, I login and not purchase products",""

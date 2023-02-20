@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676922210460' stop='1676922225551'>
+    <name>Login to website Kasir Aja Website</name>
+    <title>Login to website Kasir Aja Website</title>
+    <test-cases>
+        <test-case start='1676922210485' status='passed' stop='1676922217151'>
+            <name>TC-01 As a user, I can't log in to KasirAja</name>
+            <title>TC-01 As a user, I can't log in to KasirAja</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login to website Kasir Aja Website'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676922210489' status='passed' stop='1676922216356'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922216356' status='passed' stop='1676922217083'>
+                    <name>When As user input wrong email@salah.com and salahpassword</name>
+                    <title>When As user input wrong email@salah.com and salahpassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922217083' status='passed' stop='1676922217150'>
+                    <name>Then I should see a Popup Alert Kredensial yang Anda berikan salah</name>
+                    <title>Then I should see a Popup Alert Kredensial yang Anda berikan salah</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676922217151' status='passed' stop='1676922225550'>
+            <name>TC-02 As a user, I can log in to KasirAja</name>
+            <title>TC-02 As a user, I can log in to KasirAja</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login to website Kasir Aja Website'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676922217152' status='passed' stop='1676922223397'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922223397' status='passed' stop='1676922223948'>
+                    <name>When User input tokorisdho@gmail.com and 123asd@</name>
+                    <title>When User input tokorisdho@gmail.com and 123asd@</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676922223948' status='passed' stop='1676922225550'>
+                    <name>Then I should see a Dashboard kasirAja</name>
+                    <title>Then I should see a Dashboard kasirAja</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
